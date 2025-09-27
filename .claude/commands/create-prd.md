@@ -1,8 +1,3 @@
-----
--description: Product Requirements Document Creation Workflow
--globs:
--alwaysApply: false
-----
 # Rule: Product Requirements Document (PRD) Creation Workflow
 
 ## Goal
@@ -51,24 +46,8 @@ b) How will they use this feature?
 c) In what situations will this feature be needed?
 
 ### Step 3: Read JTBD Documentation
-- Check if `product-development/current-feature/[feature-slug]/JTBD.md` exists
-- If not, ask JTBD-specific questions:
-
-#### JTBD Clarifying Questions
-**Job Identification**
-a) What job are users trying to get done?
-b) When does this job arise?
-c) Why is this job important?
-
-**Current Solutions**
-a) How do users currently do this job?
-b) What problems exist with current solutions?
-c) What are users unsatisfied with?
-
-**Success Criteria**
-a) What does a successful outcome look like?
-b) How should users feel?
-c) What metrics indicate success?
+- Check if `product-development/current-feature/[feature-slug]/JTBD.md` exists.
+- If not, **STOP** the process and instruct the user: "The JTBD.md document is a required prerequisite for creating a PRD. Please run the `create-jtbd` command first to brainstorm and generate it."
 
 ### Step 4: Generate PRD
 

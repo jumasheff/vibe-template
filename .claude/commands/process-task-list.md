@@ -1,8 +1,3 @@
-----
--description: Task List Management and Implementation
--globs:
--alwaysApply: false
-----
 # Task List Management and Implementation
 
 Guidelines for managing and implementing task lists in the new product development workflow
