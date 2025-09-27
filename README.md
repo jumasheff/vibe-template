@@ -8,6 +8,11 @@ This template provides a structured workflow for product development, guided by 
 
 I am hopeful that this workflow will enforce thoughtful vibe-coding.
 
+### Key Documents
+
+- **`product.md`**: This document contains the high-level vision, mission, and strategic goals of the product. It serves as a guiding star for all feature development.
+- **`feature.md`**: This document details a specific feature, including the problem it solves, its target users, and its core functionality.
+
 The workflow consists of four main phases:
 
 ### 1. JTBD Creation (`create-jtbd.md`)
@@ -24,7 +29,7 @@ This is the foundational first step where you brainstorm and define the user's p
 With a clear understanding of the problem, this phase translates the "why" from the JTBD into the "what" of a feature.
 
 -   **Goal**: To create a comprehensive **Product Requirements Document (PRD)** that defines the solution.
--   **Process**: This command consumes the `JTBD.md` and other context documents (`product.md`, `feature.md`) to generate a detailed specification. If `product.md` or `feature.md` don't exist, the command will guide you to create them from templates.
+-   **Process**: This command consumes the `JTBD.md` and the context from `product.md` and `feature.md` to generate a detailed specification. If `product.md` or `feature.md` don't exist, the command will guide you to create them from templates.
 -   **Outcome**: A detailed `PRD.md` is generated.
 -   **Location**: This work happens in the `product-development/planned-features/` directory.
 

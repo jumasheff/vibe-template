@@ -5,6 +5,8 @@ This directory is a template for "vibe coding". It is intended to be a starting 
 # Key Files & Directories
 
 *   `README.md`: The main entry point for understanding the project's purpose.
+*   `product.md`: This document contains the high-level vision, mission, and strategic goals of the product.
+*   `feature.md`: This document details a specific feature, including the problem it solves, its target users, and its core functionality.
 *   `.claude/`: A directory containing custom commands.
     *   `commands/create-prd.md`: A command to create a Product Requirements Document. It guides the user to create `product.md` and `feature.md` from templates if they don't exist.
     *   `commands/generate-tasks.md`: A command to generate tasks from a PRD.
