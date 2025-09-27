@@ -1,6 +1,6 @@
 # Vibe Template
 
-A convenient template for thoughtful vibe coding.
+A template for thoughtful, product centric vibe coding. It provides a structured workflow for product ideation, planning, and implementation.
 
 ## Workflow
 
