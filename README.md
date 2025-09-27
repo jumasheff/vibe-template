@@ -39,3 +39,10 @@ This phase involves writing the code to bring the feature to life, following the
 -   **Location**: The feature's folder is moved from `planned-features/` to `current-feature/` during active development, and finally to `completed-features/` upon completion.
 
 This structured approach ensures that every feature is well-defined, planned, and executed, aligning with the principles of "thoughtful vibe coding."
+
+I am hopeful that this workflow will enforce thoughtful vibe-coding.
+
+## Recommended MCP Servers
+
+-   **serena**: [https://github.com/oraios/serena](https://github.com/oraios/serena)
+-   **context7**: [https://github.com/upstash/context7](https://github.com/upstash/context7)
