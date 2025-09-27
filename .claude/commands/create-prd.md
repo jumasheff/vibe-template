@@ -15,7 +15,7 @@ This workflow follows a 4-step process:
 
 ### Step 1: Read Product Documentation
 - Check if `product-development/current-feature/[feature-slug]/product.md` exists
-- If not, ask the user to provide product context or create one from template
+- If not, ask the user to provide product context or create one from template. You can find the template at `product-development/resources/templates/product.md`.
 - Read and understand:
   - Product vision and mission
   - Target users and market
@@ -25,7 +25,7 @@ This workflow follows a 4-step process:
 
 ### Step 2: Read Feature Documentation
 - Check if `product-development/current-feature/[feature-slug]/feature.md` exists
-- If not, ask clarifying questions to understand the feature:
+- If not, ask the user to create one from the template at `product-development/resources/templates/feature.md` and then ask clarifying questions to understand the feature:
 
 #### Feature Clarifying Questions
 Provide options in letter/number lists for easy selection:

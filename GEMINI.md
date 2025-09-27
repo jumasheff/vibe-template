@@ -6,7 +6,7 @@ This directory is a template for "vibe coding". It is intended to be a starting 
 
 *   `README.md`: The main entry point for understanding the project's purpose.
 *   `.claude/`: A directory containing custom commands.
-    *   `commands/create-prd.md`: A command to create a Product Requirements Document.
+    *   `commands/create-prd.md`: A command to create a Product Requirements Document. It guides the user to create `product.md` and `feature.md` from templates if they don't exist.
     *   `commands/generate-tasks.md`: A command to generate tasks from a PRD.
     *   `commands/process-task-list.md`: A command to process a list of tasks.
 
